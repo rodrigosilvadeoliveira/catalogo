@@ -1,0 +1,136 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+   /* background-image: linear-gradient(45deg, cyan, yellow);*/
+    background-color: #f8bdc6;
+    }
+    .fixed-header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #333; /* Cor de fundo do header (ajuste conforme desejar) */
+        z-index: 999; /* Certifique-se de que o header tenha uma z-index maior que outros elementos da página para que fique sobreposto a eles */
+      }
+      
+          #sobre_prod {			border: 25px solid #903;
+          background: #903;
+          margin: 0;
+          padding:0;
+      }
+      #sobre {
+          list-style: none; 
+          margin: 10px;
+           display: inline;
+      }
+      #sobre a {
+          padding: 20px 40px; 
+          margin:0;
+          border: 0px solid #f00; 
+          background: #903;
+          text-decoration: none;
+          color:#FFF;
+      /* cantos arredondados */
+          -webkit-border-radius:5px;
+          -moz-border-radius:5px;
+           border-radius:5px;
+      }
+      #sobre a:hover {
+          background: #CCC;
+          color: #000; 
+           border-color: #000;
+      }
+      #slider_horizontal {
+          display: block;
+          width: 100%;
+          overflow-x: scroll;
+          margin-top: 20px;
+          padding: 5px;
+          box-sizing: border-box;
+          
+      }
+      #slider_horizontal::-webkit-scrollbar {
+          display: none;
+      }
+      #container_slider {
+          display: block;
+          white-space: nowrap;
+      
+      }
+      .horizontal_slider::-webkit-scrollbar {
+          display: none;
+      }
+          
+      
+          .slider_container {
+              display: block;
+              white-space: nowrap;
+      
+          }
+      .item {
+      
+          display: inline-block;
+          margin-right: 10px;
+      }
+      .imagens{
+          width: 100px;
+          height: 100px;
+          margin: 10px;
+      
+      }
+      h2 {
+          text-align: left;
+          font-size: 16px;font-size: 16px;
+          color: #000;
+         
+      }
+      h3 {
+          text-align: left;
+          font-size: 16px;
+      }
+      .preço{
+          font-size: 16px;
+          text-align: justify;
+          margin-top: 10px;
+      }
+      #informarcaoProdutos{
+          font-size: 16px;
+          text-align: justify;
+          margin-top: 10px;
+      }
+      #ilustrativa{
+          font-size: 16px;
+      
+      }
+      #tabelaCatalogo{
+          margin-left: 15px;
+          margin-top: -120px;
+          background-image: linear-gradient(to right, rgb(172, 16, 130), rgb(90,20,220));
+          width: 98.5%;
+          border: none;
+          padding: 15px;
+          color: white;
+          font-size: 15px;
+          cursor: pointer;
+          border-radius: 10px;
+      
+      }
+      @media (max-width: 400px) {
+        .horizontal_slider {
+          display: block;
+          width: 100%;
+          overflow-x: scroll;
+          margin-top: 20px;
+          padding: 5px;
+          box-sizing: border-box;
+          
+      }
+      .horizontal_slider::-webkit-scrollbar {
+          display: none;
+      }
+      
+      .slider_container {
+          display: block;
+          white-space: nowrap;
+      
+      }
+      }
